@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bukalemun"
+version = "0.1.0"
+description = "No more breaking changes"
+authors = ["Izel Levy <izel93@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.7.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+pytest-cov = "^2.10.0"
+
+[build-system]
+requires = ["poetry>=1.0.9"]
