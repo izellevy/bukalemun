@@ -7,6 +7,7 @@ authors = ["Izel Levy <izel93@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pydantic = "^1.7.2"
+bidict = "^0.21.2"
 
 
 [tool.poetry.dev-dependencies]
